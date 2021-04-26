@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>School Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <!--
+Navigation bar code here
+-->
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">St. Xavier's School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#school_name">School Name</a></li>
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#what'_snew">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel Free To ask queries on school@gmail.com ***</marquee>
+    </div>
+    <iframe id="videos" width="1366" height="625" src="https://www.youtube.com/embed/9Frow8HMh74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">campus life</h2>
+            <div class="row">
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="auditorium.jpg">
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left"> It is the main assembly room of the school.</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="library.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1980</h5>
+                    <p class="text-muted text-left"> The school library has over 100 storybooks.</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="ground.jpg">
+                <h4 class="text-capitalize"><kbd>school ground</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">Was established in 1982</h5>
+                <p class="text-muted text-left"> It is the biggest school ground in this state.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1" >
+     Inter School Debate On Environment Polution<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievementsID" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	  		<img src="debate.jpg" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-success text-left text-capitalize"> won first prize in inter school debate on environment polution
+        <span class="glyphicon glyphicon-star" ></span>
+      </h5>
+		  <p>It was tough though but we managed to win the inter school debate competion</p>
+	  </div>
+
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactus">
+            <h2 class="text-capitalize">contact us</h2>
+        </div>
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14874.39854084761!2d81.688194!3d21.2477191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf99021dda68236a5!2sSt.%20Xavier&#39;s%20High%20School!5e0!3m2!1sen!2sin!4v1619143118261!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="details">
+            <img src="principle.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principle Name:</h3>
+            <h4>Mr.Xavier John Dcosta</h4>
+            <div class="contact_1">
+                <a href="arushgarg0911@gmail.com">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolID</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9916001600</h5>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</body></html>
